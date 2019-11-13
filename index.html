@@ -3,17 +3,103 @@
 
     <head> <!--Cabeçalho da página, nome que irá aparecer-->
       <meta charset="utf-8"> <!--Tipo de dados padrão -->
-      <title> Digital Inovation</title> <!-- Título da página -->
+      <title>Filipe Tech Solution</title> <!-- Título da página -->
     </head> 
 
   <body> <!-- Conteúdo da pagina-->
+    <nav> <!--Container de navegação No caso Menu-->
+      <ul> <!--Lista não ordenada-->
+        <p> Menu </p> 
+        <li><a href="#contato">Contato</a></li> <!--Itens da Lista-->
+        <li><a href="#parceiros">Parceiros</a></li> 
+        <li><a href="#servicos"> Serviços</a></li> <!--tag a + href referenciam um link para seção ou imagem ou página-->
+        <li><a href="#clientes"> Clientes</a></li> <!-- tecnicamente utiliza o hyperlink-->
+        <li><a href="#time">Time</a></li> <!-- hashtag informa que o que vier depois será um id-->
+      </ul>
+    </nav>
 
-    <p>Hello World</p> <!-- Tag p Parágrafo-->
-    <p>Minha primeira página</p>
+    <!-- Tag p Parágrafo-->
+    <p></p>
 
     <header> <!--Cabeçalho dentro da tag body ps: talvez seja dispensável-->
-      <h1>Minha página de teste</h1> <!--h1 define a hierarquia de títulos-->
+      <h1>Tech Solution</h1> <!--h1 define a hierarquia de títulos-->
     </header>
+
+    <section id="servicos"> <!--Elemento Section define uma seção com id -->
+        <h2>Serviços</h2>
+
+        <p>
+          Oferecemos os melhores serviços em desenvolvimento <br>
+          de sites e aplicativos.
+        </p>
+
+        <div>
+            <img src="./img/site.jpg" width="300px"> <!--Tag img + src para inserir imagens-->
+        </div>
+        
+
+        <div> <!--Tag utilizada para dividir os espaços-->
+            <img src="./img/app.jpg" width="300px">
+        </div>
+       
+
+    </section>
+
+    <section id="clientes">
+
+        <h2>Clientes</h2>
+        <p>Temos clientes de todos os segmentos <br>
+        E que ficaram extremamente satisfeitos com nossos serviços.
+        </p>
+        <div>
+          <img src="./img/clientes.jpg" width="300px">
+        </div>
+        <div>
+          <img src="./img/cliente2.jpg" width="300px">
+        </div>
+
+    </section>
+
+    <section id="parceiros">
+      <h2>Nossos Parceiros</h2>
+      <p>Estes são os parceiros que nos ajudam a entregar <br> 
+        o melhor produto aos nossos clientes</p>
+      <div>
+        <a href="https://www.facebook.com" target="_blank"> <!--Utilizar o target + _blank para o link abrir em outra aba-->
+        <img src="img/facebook.png"width="100px">
+        </a>
+      </div>
+      <div>
+        <a href="https://digitalinnovation.one/" target="_blank">
+        <img src="./img/digitalinnovation.png"width="150px">
+        </a>
+      </div>
+
+    </section>
+
+    <section id="time">
+      <h2>Time</h2>
+      <p>E este é o nosso vitorioso e engajado time</p>
+      <img src="./img/time.jpg" width="300px">
+
+
+    </section>
+    
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Entre em contato com nossa equipe </p>
+      <div>
+        <img src="./img/email.png"width="30px">
+      </div>
+      <p><a href="mailto:filipe@contato.com.br">filipe@contato.com.br</a></p> <!--utilizar mailto no href para linkar o email desejado-->
+      <div>
+          <img src="./img/telefone.png"width="30px">
+      </div>
+      <p><a href="tel:1155555555" >Fone: (11) 5555-5555</a></p> <!--Utilizar o tel: dentro de href para referenciar o telefone-->
+
+
+    </section>
+    
 
 
 
